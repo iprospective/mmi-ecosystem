@@ -32,6 +32,16 @@ documents privés d'exploitation.
 - sauvegardes, supervision et moindre privilège par défaut ;
 - détails d'exploitation, secrets et procédures sensibles dans les documents privés.
 
+## En cours de développement
+
+### Atombox
+
+Serveur mail en développement pour gérer des **domaines complets** dans une optique
+d'entreprise : domaines, comptes, livraison et administration de la messagerie.
+
+- GitHub : <https://github.com/iprospective/atombox>
+- GitLab : `iprospective/atombox`
+
 ## Outils
 
 - **Karl / PM** : <https://github.com/iprospective/karl-ai-project-manager>
@@ -69,6 +79,7 @@ produit.
 - [Postfix](https://github.com/Postfix/postfix)
 - [Dovecot](https://github.com/dovecot/core)
 - [Roundcube](https://github.com/roundcube/roundcubemail)
+- [Atombox](https://github.com/iprospective/atombox)
 
 ### Applications
 
