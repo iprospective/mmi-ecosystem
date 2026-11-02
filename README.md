@@ -17,6 +17,7 @@ conteneurs :
 - des environnements séparés pour les infrastructures clientes ;
 - **GitLab** pour les projets, **Nextcloud** pour la collaboration ;
 - **Zabbix** pour la supervision ;
+- **Vaultwarden** pour la gestion des secrets ;
 - **Karl/PM** pour piloter le projet, avec synchronisation Redmine pour les tâches.
 
 Ce dépôt décrit les **principes et l'organisation**, pas les adresses, secrets,
@@ -69,6 +70,7 @@ produit.
 - [OpenSVC](https://github.com/opensvc/opensvc)
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec)
 - [Zabbix](https://github.com/zabbix/zabbix)
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
 - [Apache HTTP Server](https://github.com/apache/httpd)
 - [PHP](https://github.com/php/php-src)
 - [BIND 9](https://gitlab.isc.org/isc-projects/bind9)
