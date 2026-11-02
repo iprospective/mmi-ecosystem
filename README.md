@@ -1,5 +1,8 @@
 # Écosystème iProspective
 
+> Dépôt public : <https://github.com/iprospective/mmi-ecosystem>  
+> Licence : GPL-3.0-or-later.
+
 Documentation et conventions de l'écosystème iProspective.
 
 ## Outils
@@ -18,3 +21,7 @@ porte les tâches, décisions et environnements de projet.
 Les outils sont utilisés **conjointement** : PM décrit les tâches et les envs,
 TestKit produit les verdicts, Knowledge fournit les faits produit, Karl/PM lit et
 pilote.
+
+## Licence
+
+GNU GPL v3 ou ultérieure — voir `LICENSE`.
