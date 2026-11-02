@@ -23,6 +23,15 @@ Ce dépôt décrit les **principes et l'organisation**, pas les adresses, secret
 sauvegardes détaillées ni procédures d'urgence. Ces éléments restent dans les
 documents privés d'exploitation.
 
+## Principes
+
+- séparation stricte entre production, recette et développement ;
+- isolation des services et des environnements client ;
+- **GitLab** pour le code, **Karl/PM** pour les tâches et décisions, **Knowledge**
+  pour les faits produit, **TestKit** pour les verdicts ;
+- sauvegardes, supervision et moindre privilège par défaut ;
+- détails d'exploitation, secrets et procédures sensibles dans les documents privés.
+
 ## Outils
 
 - **Karl / PM** : <https://github.com/iprospective/karl-ai-project-manager>
