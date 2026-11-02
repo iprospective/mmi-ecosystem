@@ -7,16 +7,26 @@ Documentation et conventions de l'écosystème iProspective.
 
 ## Infrastructure
 
-L'écosystème repose sur **plusieurs serveurs** et une séparation des services par
-conteneurs :
+L'infrastructure repose sur un **bloc de 16 IP OVH** et **trois serveurs**, avec
+réplication et snapshots ZFS.
 
-- **ZFS** pour le stockage, les datasets, les snapshots et les sauvegardes ;
-- **conteneurs LXC** pour isoler les services et limiter les dépendances ;
-- **OpenSVC** pour piloter le cycle de vie et la bascule des conteneurs ;
-- **Zabbix** pour la supervision et les alertes ;
-- **Nextcloud** pour le partage et la collaboration ;
-- GitLab, Redmine/Karl, les services mail et les environnements de recette pour le
-  développement et les tests.
+- **ZFS** : stockage, datasets, snapshots et réplication entre serveurs.
+- **Conteneurs LXC** : services isolés, avec OpenSVC pour le cycle de vie et la
+  bascule.
+- **Mail** : conteneur dédié avec toute la stack mail.
+- **Infra client** : plusieurs conteneurs séparés, chacun avec l'ensemble de ses
+  outils.
+- **Sécurité** : CrowdSec sur l'ensemble de l'infrastructure.
+- **Données** : réplication de bases dans un conteneur dédié, qui assure aussi les
+  sauvegardes externalisées des données client.
+- **Atlas** : outil de sysadmin.
+- **GitLab** : hébergement de l'ensemble des projets client.
+- **`prd`** : conteneur des sites hébergés en mutualisé.
+- **NAS ZFS sur Odroid** : isolé, sans accès entrant, utilisé comme redondance de
+  sauvegarde synchronisée toutes les heures à la maison.
+- **Supervision** : Zabbix.
+- **Collaboration** : Nextcloud.
+- **Pilotage** : Karl/PM, avec synchronisation Redmine pour visualiser les tâches.
 
 L'objectif est de garder des services **isolés, sauvegardables, supervisés et
 reproductibles**, sans mélanger production, recette et développement.
