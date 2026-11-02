@@ -84,6 +84,11 @@ produit.
 - [Atombox](https://github.com/iprospective/atombox)
 
 ### Applications
+### Développement Dolibarr
+
+- [Modules Dolibarr MMI](https://github.com/lemathou/dolibarr-mmi-modules)
+- [Fork Dolibarr](https://github.com/lemathou/dolibarr)
+
 
 - [Dolibarr](https://github.com/Dolibarr/dolibarr)
 - [PrestaShop](https://github.com/PrestaShop/PrestaShop)
