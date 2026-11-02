@@ -5,6 +5,22 @@
 
 Documentation et conventions de l'écosystème iProspective.
 
+## Infrastructure
+
+L'écosystème repose sur **plusieurs serveurs** et une séparation des services par
+conteneurs :
+
+- **ZFS** pour le stockage, les datasets, les snapshots et les sauvegardes ;
+- **conteneurs LXC** pour isoler les services et limiter les dépendances ;
+- **OpenSVC** pour piloter le cycle de vie et la bascule des conteneurs ;
+- **Zabbix** pour la supervision et les alertes ;
+- **Nextcloud** pour le partage et la collaboration ;
+- GitLab, Redmine/Karl, les services mail et les environnements de recette pour le
+  développement et les tests.
+
+L'objectif est de garder des services **isolés, sauvegardables, supervisés et
+reproductibles**, sans mélanger production, recette et développement.
+
 ## Outils
 
 - **Karl / PM** : <https://github.com/iprospective/karl-ai-project-manager>
