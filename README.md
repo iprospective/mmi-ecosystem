@@ -50,6 +50,48 @@ Les outils sont utilisés **conjointement** : Karl/PM pilote le projet, décrit 
 tâches et les envs, TestKit produit les verdicts, Knowledge fournit les faits
 produit.
 
+## Annexe — dépôts des outils
+
+### Infrastructure
+
+- [OpenZFS](https://github.com/openzfs/zfs)
+- [LXC](https://github.com/lxc/lxc)
+- [OpenSVC](https://github.com/opensvc/opensvc)
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec)
+- [Zabbix](https://github.com/zabbix/zabbix)
+- [Apache HTTP Server](https://github.com/apache/httpd)
+- [PHP](https://github.com/php/php-src)
+- [BIND 9](https://gitlab.isc.org/isc-projects/bind9)
+- [Certbot](https://github.com/certbot/certbot)
+
+### Mail
+
+- [Postfix](https://github.com/Postfix/postfix)
+- [Dovecot](https://github.com/dovecot/core)
+- [Roundcube](https://github.com/roundcube/roundcubemail)
+
+### Applications
+
+- [Dolibarr](https://github.com/Dolibarr/dolibarr)
+- [PrestaShop](https://github.com/PrestaShop/PrestaShop)
+- [Nextcloud](https://github.com/nextcloud/server)
+- [WordPress](https://github.com/WordPress/WordPress)
+- [Redmine](https://github.com/redmine/redmine)
+- [GitLab](https://gitlab.com/gitlab-org/gitlab)
+
+### Données
+
+- [MariaDB](https://github.com/MariaDB/server)
+- [PostgreSQL](https://github.com/postgres/postgres)
+- [Redis](https://github.com/redis/redis)
+
+### Outils internes
+
+- [Karl/PM](https://github.com/iprospective/karl-ai-project-manager)
+- [MMI TestKit](https://github.com/iprospective/mmi-testkit)
+- [mmi-dev-knowledge](https://github.com/iprospective/mmi-dev-knowledge)
+- Atlas — outil interne, pas de dépôt public.
+
 ## Licence
 
 GNU GPL v3 ou ultérieure — voir `LICENSE`.
