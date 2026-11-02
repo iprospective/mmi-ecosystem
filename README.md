@@ -13,14 +13,15 @@ Documentation et conventions de l'écosystème iProspective.
 
 Karl et PM sont **le même outil** : `karl-ai-project-manager`.
 
-TestKit exécute les tests ; Knowledge porte les faits produits génériques ; Karl/PM
-porte les tâches, décisions et environnements de projet.
+Karl/PM est le **gestionnaire de projet assisté par IA, modulaire** : il porte le
+projet, les tâches, les décisions, les environnements et les workflows. TestKit
+exécute les tests ; Knowledge porte les faits produits génériques.
 
 ## Règle
 
-Les outils sont utilisés **conjointement** : PM décrit les tâches et les envs,
-TestKit produit les verdicts, Knowledge fournit les faits produit, Karl/PM lit et
-pilote.
+Les outils sont utilisés **conjointement** : Karl/PM pilote le projet, décrit les
+tâches et les envs, TestKit produit les verdicts, Knowledge fournit les faits
+produit.
 
 ## Licence
 
