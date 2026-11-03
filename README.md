@@ -48,12 +48,28 @@ d'entreprise : domaines, comptes, livraison et administration de la messagerie.
 - **Karl / PM** : <https://github.com/iprospective/karl-ai-project-manager>
 - **MMI TestKit** : <https://github.com/iprospective/mmi-testkit>
 - **mmi-dev-knowledge** : <https://github.com/iprospective/mmi-dev-knowledge>
+- **Atlas** : <https://github.com/iprospective/mmi-atlas>
 
 Karl et PM sont **le même outil** : `karl-ai-project-manager`.
 
 Karl/PM est le **gestionnaire de projet assisté par IA, modulaire** : il porte le
 projet, les tâches, les décisions, les environnements et les workflows. TestKit
 exécute les tests ; Knowledge porte les faits produits génériques.
+
+### Atlas
+
+Atlas est le composant chargé des **déploiements** et des **opérations
+d'administration** sur les serveurs. Il agit avec des **droits d'administration
+limités** : utilisateur système dédié, sudoers ciblé par opération et catalogue
+fermé de scripts vetted. Il ne dispose pas d'un accès root général.
+
+Atlas est utilisé par Karl/PM pour les snapshots pré-MEP et certaines opérations
+d'orchestration, et par la supervision pour des actions contrôlées. Les secrets
+et les détails d'exploitation restent hors dépôt.
+
+- GitHub public : <https://github.com/iprospective/mmi-atlas>
+- Source GitLab : `iprospective/sysadmin/atlas`
+- Projet PM : `iprospective/atlas-core`
 
 ## Règle
 
@@ -108,7 +124,7 @@ produit.
 - [Karl/PM](https://github.com/iprospective/karl-ai-project-manager)
 - [MMI TestKit](https://github.com/iprospective/mmi-testkit)
 - [mmi-dev-knowledge](https://github.com/iprospective/mmi-dev-knowledge)
-- Atlas — outil interne, pas de dépôt public.
+- [Atlas](https://github.com/iprospective/mmi-atlas) — agent de déploiement et d’administration limitée.
 
 ## Licence
 
